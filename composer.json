@@ -1,0 +1,23 @@
+{
+    "name": "yves/encrypt",
+    "description": "This helps to encrypt data for something like cashpowers",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Niyobuhungiro Yves",
+            "email": "niyobuhungiro.yves@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^5.1"
+    },
+    "autoload": {
+		"psr-4": {
+			"Encrypt\\": "src/"
+        },
+        "files": [
+            "src/Helpers/DumpHelper.php"
+        ]
+	}
+}
